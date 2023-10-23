@@ -56,7 +56,7 @@ header {
     position: relative;
 }
 
-.logo {
+#logo {
     width: 25rem;
     height: auto;
     margin-bottom: 1rem;
