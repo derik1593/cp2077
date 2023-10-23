@@ -56,6 +56,12 @@ header {
     position: relative;
 }
 
+.logo {
+    width: 25rem;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
 h1, .list-heading { 
     color: #ff5c53;
     font-family: BlenderProBold, sans-serif;
