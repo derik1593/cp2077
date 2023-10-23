@@ -249,6 +249,7 @@ input[type="radio"]:checked::before {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     gap: 1rem;
+    margin-bottom: 2rem;
 }
 
 .weapon-card {
@@ -460,12 +461,13 @@ h4, .weapon-tooltip-tier {
 
 /* MEDIA QUERY */
 
+@media only screen and (max-width: 1920px) {
+    #weapons-container {
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    }
+}
 
 @media only screen and (max-width: 940px) {
-    #weapons-container {
-        grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
-    }
-
     main {
         flex-direction: column;
     }
