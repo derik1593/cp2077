@@ -201,7 +201,6 @@ fetch('weapons.json')
                         tooltip.classList.remove('display');
                     });
                     weaponTooltip.classList.add('display');
-                    weaponTooltip.scrollIntoView();
                 } else {
                     weaponTooltip.classList.remove('display');
                 };
