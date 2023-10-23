@@ -1,18 +1,73 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baza danych - Bronie palne | Cyberpunk 2077</title>
-    <link rel="preload" href="https://www.cyberpunk.net/fonts/BlenderPro-Bold.woff2" as="font" crossorigin="">
-    <link rel="preload" href="https://www.cyberpunk.net/fonts/BlenderPro-Book.woff2" as="font" crossorigin="">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"/>
-    <link rel="icon" type="image/png" sizes="96x96" href="https://www.cyberpunk.net/favicons/favicon-96x96.png">
-    <link rel="stylesheet" href="style.css" type="text/css">
-</head>
-<body>
-    <header>
-        <img class="logo" src="https://www.cyberpunk.net/build/images/home8/logo-cp77-yellow-en@1x-d74d8679.png">
-    </header>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Baza danych - Bronie palne | Cyberpunk 2077</title>
+        <link rel="preload" href="https://www.cyberpunk.net/fonts/BlenderPro-Bold.woff2" as="font" crossorigin="">
+        <link rel="preload" href="https://www.cyberpunk.net/fonts/BlenderPro-Book.woff2" as="font" crossorigin="">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"/>
+        <link rel="icon" type="image/png" sizes="96x96" href="https://www.cyberpunk.net/favicons/favicon-96x96.png">
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="https://www.cyberpunk.net/build/images/home8/logo-cp77-yellow-en@1x-d74d8679.png">
+            <h1>BAZA DANYCH - BRONIE PALNE</h1>
+        </header>
+        <main>
+            <button class="dropdown-menu-button">FILTRUJ</button>
+            <section id="filter-container">
+
+                <div id="search-bar-wrapper">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" onkeyup="searchWeapon()" id="search-bar" placeholder="SZUKAJ">
+                </div>
+
+                <section id="filter-inputs-container">
+                    <div class="dropdown-menu-close-button">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+
+                    <ul id="list-container">
+                        <li class="list-heading">GENERACJE</li>
+                        <ul class="list-input-wrapper">
+                            <li><input type="radio" name="tier" value="0" checked>GENERACJA I</li>
+                            <li><input type="radio" name="tier" value="1">GENERACJA I+</li>
+                            <li><input type="radio" name="tier" value="2">GENERACJA II</li>
+                            <li><input type="radio" name="tier" value="3">GENERACJA II+</li>
+                            <li><input type="radio" name="tier" value="4">GENERACJA III</li>
+                            <li><input type="radio" name="tier" value="5">GENERACJA III+</li>
+                            <li><input type="radio" name="tier" value="6">GENERACJA IV</li>
+                            <li><input type="radio" name="tier" value="7">GENERACJA IV+</li>
+                            <li><input type="radio" name="tier" value="8">GENERACJA V</li>
+                            <li><input type="radio" name="tier" value="9">GENERACJA V+</li>
+                            <li><input type="radio" name="tier" value="10">GENERACJA V++</li>
+                        </ul>
+                        <li class="list-heading">TECHNOLOGIA</li>
+                        <ul class="list-input-wrapper">
+                            <li><input type="checkbox" name="technology" value="power" checked>POWER</li>
+                            <li><input type="checkbox" name="technology" value="tech" checked>TECH</li>
+                            <li><input type="checkbox" name="technology" value="smart" checked>SMART</li>
+                        </ul>
+                        <li class="list-heading">TYPY</li>
+                        <ul class="list-input-wrapper">
+                            <li class="iconic-color"><input type="checkbox" name="iconic" checked> IKONICZNY</li>
+                            <li><input type="checkbox" name="type" value="pistol" checked> PISTOLET</li>
+                            <li><input type="checkbox" name="type" value="revolver" checked> REWOLWER</li>
+                            <li><input type="checkbox" name="type" value="smg" checked> PISTOLET MASZYNOWY</li>
+                            <li><input type="checkbox" name="type" value="lmg" checked> LEKKI KARABIN MASZYNOWY</li>
+                            <li><input type="checkbox" name="type" value="shotgun" checked> STRZELBA</li>
+                            <li><input type="checkbox" name="type" value="db_shotgun" checked> PODWÓJNA STRZELBA</li>
+                            <li><input type="checkbox" name="type" value="assault_rifle" checked> KARABIN SZTURMOWY</li>
+                            <li><input type="checkbox" name="type" value="precision_rifle" checked> KARABIN PRECYZYJNY</li>
+                            <li><input type="checkbox" name="type" value="sniper_rifle" checked> KARABIN SNAJPERSKI</li>
+                        </ul>
+                    </ul>
+                </section>
+            </section>
+            <section id="weapons-container"></section>
+        </main>
+    </body>
+    <script src="main.js"></script>
 </html>

@@ -1,0 +1,483 @@
+@font-face {
+    font-family: BlenderProBook;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://www.cyberpunk.net/fonts/BlenderPro-Book.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: BlenderProBold;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://www.cyberpunk.net/fonts/BlenderPro-Bold.woff2) format("woff2")
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(12, 11, 18) url(https://www.cyberpunk.net/build/images/bg-70388ab4.webp);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 2rem;
+    overflow-y: scroll;
+}
+
+
+/* SCROLLBAR */
+
+
+::-webkit-scrollbar {
+    width: .5rem;
+}
+
+::-webkit-scrollbar-track {
+    background: #692623;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff5c53;
+}
+
+
+/* HEADER */
+
+
+header {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+h1, .list-heading { 
+    color: #ff5c53;
+    font-family: BlenderProBold, sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: .56px;
+    line-height: 1;
+    text-shadow: 0 0 24px rgba(255, 92, 83, .4);
+    user-select: none;
+}
+
+
+/* MAIN */
+
+
+main {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+
+/* MAIN - FILTER */
+
+
+.dropdown-menu-button {
+    display: none;
+    font-family: BlenderProBold, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1;
+    padding: 1rem;
+    width: 100%;
+    background: #fcee0a;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 0 100%);
+    border: none;
+    opacity: .8;
+    transition: opacity .2s;
+}
+
+.dropdown-menu-button:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.dropdown-menu-close-button {
+    display: none;
+    position: fixed;
+    right: 2rem;
+    background: rgba(21, 20, 32, 0.5);
+    line-height: 1;
+    width: 3rem;
+    aspect-ratio: 1;
+    place-items: center;
+    border-radius: 50%;
+    color: #ff5c53;
+    text-shadow: 0 0 24px rgba(255, 92, 83, .4);
+    font-size: 2rem;
+}
+
+.dropdown-menu-close-button:hover {
+    cursor: pointer;
+    opacity: .7;
+}
+
+
+
+#search-bar-wrapper {
+    position: relative;
+    width: 100%;
+    margin-bottom: 1rem;
+    background: rgba(105, 38, 35, .5);
+    border: none;
+    clip-path: polygon(0 0, calc(100% - 15px) 0, 100% calc(0% + 15px),100% calc(100% - 8px), calc(0% + 90px) calc(100% - 8px), calc(0% + 83px) 100%, 0 100%);
+}
+
+#search-bar-wrapper::before {
+    content: '';
+    position: absolute;
+    clip-path: polygon(0 0, calc(100% - 15px) 0, 100% calc(0% + 15px),100% calc(100% - 8px), calc(0% + 88px) calc(100% - 8px), calc(0% + 81px) 100%, 0 100%);
+    inset: 1px;
+    background: rgba(12, 11, 18, .8);
+    z-index: -1;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    color: #ff5c53;
+    text-shadow: 0 0 24px rgba(255, 92, 83, .4);
+    font-size: 1.3rem;
+    left: 2rem;
+    top: 50%;
+    transform: translateY(calc(-50% - .2rem));
+}
+
+#search-bar {
+    font-family: BlenderProBook, sans-serif;
+    font-size: 1.3rem;
+    color: #b1aba8;
+    width: 100%;
+    padding: 1rem 4rem calc(1rem + 8px) 4rem;
+    background: transparent;
+    border: none;
+    text-transform: uppercase;
+}
+
+#search-bar::placeholder {
+    color: #615f5e;
+}
+
+#search-bar:focus {
+    outline: none;
+}
+
+#filter-inputs-container {
+    position: relative;
+    background: rgb(105, 38, 35, .5);
+    width: 22rem;
+    clip-path: polygon(0 8px, calc(100% - 90px) 8px, calc(100% - 83px) 0, 100% 0, 100% 100%, 20px 100%, 0 calc(100% - 20px));
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+#filter-inputs-container::before {
+    content: '';
+    position: absolute;
+    clip-path: polygon(0 8px, calc(100% - 88px) 8px, calc(100% - 81px) 0, 100% 0, 100% 100%, 20px 100%, 0 calc(100% - 20px));
+    inset: 1px;
+    background: rgba(12, 11, 18, .8);
+    z-index: -1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.list-input-wrapper {
+    font-family: BlenderProBook, sans-serif;
+    color: #b1aba8;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	appearance: none;
+	width: 20px;
+	height: 20px;
+    background: url('images/radio-button.png');
+	margin-right: .5rem;
+	position: relative;
+	top: 5px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked::before,
+input[type="radio"]:checked::before {
+	content: "";
+	display: block;
+	width: 20px;
+	height: 20px;
+    background: url('images/radio-button-checked.png');
+	position: absolute;
+}
+
+.iconic-color {
+    filter: brightness(0) saturate(100%) invert(77%) sepia(92%) saturate(1485%) hue-rotate(335deg) brightness(90%) contrast(86%);
+}
+
+
+/* MAIN - WEAPONS */
+
+
+#weapons-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 1rem;
+}
+
+.weapon-card {
+    position: relative;
+    display: flex;
+    gap: .3rem;
+    user-select: none;
+}
+
+.hide-technology, .hide-type, .hide-iconic, .hide-search-bar {
+    display: none;
+}
+
+.weapon-card-tier-bar {
+    background: #d6d0cf;
+    min-width: .8rem;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 80%, 3px 78%, 3px 58%, 0 56%);
+}
+
+.weapon-card-content {
+    position: relative;
+    background: rgb(105, 38, 35, .5);
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 1.8rem), calc(100% - 1.8rem) 100%, 0 100%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.weapon-card-content::before {
+    content: '';
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 1.8rem), calc(100% - 1.8rem) 100%, 0 100%);
+    inset: 1px;
+    background: rgba(12, 11, 18, .8);
+    z-index: -1;
+    transition: background .2s;
+}
+
+.weapon-card-content:hover::before {
+    background: rgba(12, 11, 18, .6);
+}
+
+.weapon-card-content-iconic {
+    position: relative;
+    background: rgb(105, 38, 35, .5);
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 1.8rem), calc(100% - 1.8rem) 100%, 0 100%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.weapon-card-content-iconic::before {
+    content: '';
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 1.8rem), calc(100% - 1.8rem) 100%, 0 100%);
+    inset: 1px;
+    background: url('images/iconic.png'), rgba(12, 11, 18, .8);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    transition: background .2s;
+}
+
+.weapon-card-content-iconic:hover::before {
+    background: url('images/iconic.png'), rgba(12, 11, 18, .6);
+    background-size: cover;
+    background-position: center;
+}
+
+.weapon-image {
+    max-height: 175px;
+}
+
+.weapon-card-content-name {
+    position: absolute;
+    bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+}
+
+h2, h3 {
+    font-family: BlenderProBook, sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    color: #b1aba8;
+    user-select: none;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: BlenderProBold, sans-serif;
+    font-weight: 700;
+}
+
+
+/* WEAPON TOOLTIP */
+
+
+.weapon-tooltip-container {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(calc(100% + 1rem));
+    width: 100%;
+    background: rgb(12, 11, 18);
+    border: 1px solid rgb(255, 92, 83);
+    color: white;
+    padding: 1rem;
+    font-family: BlenderProBook, sans-serif;
+    z-index: 1;
+}
+
+.weapon-tooltip-description-container, .weapon-tooltip-stats {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-color: rgb(105, 38, 35);
+    padding: 1rem 0;
+}
+
+h4, .weapon-tooltip-tier {
+    color: #29ffff;
+    font-size: 1.6rem;
+    margin-bottom: .5rem;
+}
+
+.weapon-tooltip-tier {
+    color: #b1aba8;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+}
+
+.weapon-tooltip-technology-container {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: 1.5rem;
+    filter: invert(55%) sepia(36%) saturate(4111%) hue-rotate(326deg) brightness(98%) contrast(104%);
+    margin: .5rem 0;
+}
+
+.weapon-tooltip-description {
+    color: #707070;
+    font-size: 1.1rem;
+}
+
+.weapon-tooltip-data {
+    margin: 1rem 0;
+}
+
+.weapon-tooltip-data-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .3rem;
+    font-size: 1.2rem;
+    font-family: BlenderProBook, sans-serif;
+    color: #b1aba8;
+}
+
+.weapon-tooltip-data-bar {
+    max-width: 100%;
+    background: #b1aba8;
+    height: .5rem;
+    transition: all .5s;
+}
+
+.weapon-tooltip-data-bar-container {
+    width: 100%;
+    background: #292929;
+    position: relative;
+}
+
+.display {
+    display: block;
+}
+
+.weapon-tooltip-stats {
+    color: #29ffff;
+    font-size: 1.3rem;
+}
+
+.iconic-description {
+    margin-top: 1rem;
+    color: #d7a031;
+    font-size: 1.3rem;
+}
+
+.weight-icon {
+    width: 1.3rem;
+    height: auto;
+}
+
+.weapon-tooltip-weight {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: 1.2rem;
+    font-family: BlenderProBold, sans-serif;
+    filter: invert(55%) sepia(36%) saturate(4111%) hue-rotate(326deg) brightness(98%) contrast(104%);
+    margin-top: 1rem;
+}
+
+
+/* MEDIA QUERY */
+
+
+@media only screen and (max-width: 940px) {
+    #weapons-container {
+        grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .dropdown-menu-button {
+        display: block;
+    }
+
+    #filter-inputs-container {
+        display: none;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        background: rgb(12, 11, 18);
+        clip-path: none;
+        width: 100%;
+        height: 100%;
+        overflow-y: auto;
+    }
+}

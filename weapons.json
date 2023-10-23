@@ -1,0 +1,548 @@
+[
+    {
+      "id": 0,
+      "name": "SPT32 GRAD",
+      "manufacturer": "techtronika",
+      "technology": "power",
+      "type": "sniper_rifle",
+      "iconic": false,
+      "weight": 11.7,
+      "attack_speed": [0, 0, 0, 0, 0, 0, 0, 0, 0.37, 0, 0.37],
+      "damage": [0, 0, 0, 0, 0, 0, 0, 0, 243.10, 0, 307.28],
+      "reload_speed": [0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 3],
+      "effective_range": [0, 0, 0, 0, 0, 0, 0, 0, 90, 0, 90],
+      "weapon_handling": [0, 0, 0, 0, 0, 0, 0, 0, 3.84, 0, 3.85],
+      "stats": {
+          "pl": "+300% Mnożnik obrażeń przy trafieniu w głowę<br>+50% Przebicie Pancerza",
+          "en": ""
+        },
+      "description": {
+          "pl": "Broń, przed którą nie sposób się schować.",
+          "en": ""
+        },
+      "iconic_description": "",
+      "filename": "spt32grad.webp"
+    },
+    {
+        "id": 1,
+        "name": "NEKOMATA",
+        "manufacturer": "tsunami",
+        "technology": "tech",
+        "type": "sniper_rifle",
+        "iconic": false,
+        "weight": 0,
+        "attack_speed": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "damage": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "reload_speed": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "effective_range": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "weapon_handling": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "stats": {
+            "pl": "+300% Mnożnik obrażeń przy trafieniu w głowę<br>+50% Przebicie Pancerza",
+            "en": ""
+          },
+        "description": {
+            "pl": "Precyzja. Bez kompromisów.",
+            "en": ""
+          },
+        "iconic_description": "",
+        "filename": "nekomata.webp"
+    },
+    {
+        "id": 2,
+        "name": "M251S AJAX",
+        "manufacturer": "militech",
+        "technology": "power",
+        "type": "assault_rifle",
+        "iconic": false,
+        "weight": 7.2,
+        "attack_speed": [7.52, 0, 0, 0, 0, 0, 0, 0, 7.52, 0, 7.52],
+        "damage": [11.87, 0, 0, 0, 0, 0, 0, 0, 40.36, 0, 65.94],
+        "reload_speed": [2.19, 0, 0, 0, 0, 0, 0, 0, 1.75, 0, 1.75],
+        "effective_range": [35, 0, 0, 0, 0, 0, 0, 0, 42, 0, 30],
+        "weapon_handling": [7.04, 0, 0, 0, 0, 0, 0, 0, 7.84, 0, 5.47],
+        "stats": {
+            "pl": "+100% Mnożnik obrażeń przy trafieniu w głowę<br>+25% Przebicie Pancerza",
+            "en": ""
+          },
+        "description": {
+            "pl": "W deszczu. W słońcu. Wszędzie.",
+            "en": ""
+          },
+        "iconic_description": "",
+        "filename": "ajax.webp"
+    },
+    {
+        "id": 3,
+        "name": "M-179 ACHILLES",
+        "manufacturer": "militech",
+        "technology": "tech",
+        "type": "precision_rifle",
+        "iconic": false,
+        "weight": 7.8,
+        "attack_speed": [0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0],
+        "damage": [0, 0, 0, 0, 0, 0, 0, 0, 82.28, 0, 0],
+        "reload_speed": [0, 0, 0, 0, 0, 0, 0, 0, 2.25, 0, 0],
+        "effective_range": [0, 0, 0, 0, 0, 0, 0, 0, 72.50, 0, 0],
+        "weapon_handling": [0, 0, 0, 0, 0, 0, 0, 0, 6.54, 0, 0],
+        "stats": {
+            "pl": "+150% Mnożnik obrażeń przy trafieniu w głowę<br>+50% Przebicie Pancerza<br>1sek. Prędkość ładowania",
+            "en": ""
+          },
+        "description": {
+            "pl": "Postaw wrogów pod ścianą.",
+            "en": ""
+          },
+        "iconic_description": "",
+        "filename": "achilles.webp"
+    },
+    {
+        "id": 4,
+        "name": "BREAKTHROUGH",
+        "manufacturer": "tsunami",
+        "technology": "tech",
+        "type": "sniper_rifle",
+        "iconic": true,
+        "weight": 11.7,
+        "attack_speed": [0, 0, 0, 0, 0, 0, 0, 0, 1.67, 0, 0],
+        "damage": [0, 0, 0, 0, 0, 0, 0, 0, 151.01, 0, 0],
+        "reload_speed": [0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0],
+        "effective_range": [0, 0, 0, 0, 0, 0, 0, 0, 90, 0, 0],
+        "weapon_handling": [0, 0, 0, 0, 0, 0, 0, 0, 5.73, 0, 0],
+        "stats": {
+            "pl": "+300% Mnożnik obrażeń przy trafieniu w głowę<br>+100% Przebicie Pancerza<br>1.25sek. Prędkość ładowania",
+            "en": ""
+          },
+        "description": {
+            "pl": "Przebija betonowe mury, jak gdyby były z tektury.",
+            "en": ""
+          },
+        "iconic_description": {
+            "pl": "Wyjątkowa modyfikacja pozwala pociskom na przebicie się przez ścianę, nawet kiedy broń nie jest naładowana. Po przebiciu pociski mogą kilkukrotnie odbić się rykoszetem.",
+            "en": ""
+          },
+        "filename": "breakthrough.webp"
+    },
+    {
+        "id": 5,
+        "name": "ASHURA",
+        "manufacturer": "tsunami",
+        "technology": "smart",
+        "type": "sniper_rifle",
+        "iconic": false,
+        "weight": 11.7,
+        "attack_speed": [0, 0, 0, 0, 0, 0, 1.67, 0, 0, 0, 0],
+        "damage": [0, 0, 0, 0, 0, 0, 280.64, 0, 0, 0, 0],
+        "reload_speed": [0, 0, 0, 0, 0, 0, 1.68, 0, 0, 0, 0],
+        "effective_range": [0, 0, 0, 0, 0, 0, 56.93, 0, 0, 0, 0],
+        "weapon_handling": [0, 0, 0, 0, 0, 0, 3.53, 0, 0, 0, 0],
+        "stats": {
+            "pl": "+150% Mnożnik obrażeń przy trafieniu w głowę<br>+25% Przebicie Pancerza<br>1.35sek. Czas namierzania",
+            "en": ""
+          },
+        "description": {
+            "pl": "Więcej niż karabin.",
+            "en": ""
+          },
+        "iconic_description": "",
+        "filename": "ashura.webp"
+    },
+    {
+        "id": 6,
+        "name": "SZPILA",
+        "manufacturer": "techtronika",
+        "technology": "power",
+        "type": "sniper_rifle",
+        "iconic": true,
+        "weight": 11.7,
+        "attack_speed": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.37],
+        "damage": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 307.28],
+        "reload_speed": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2.70],
+        "effective_range": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 82.54],
+        "weapon_handling": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3.81],
+        "stats": {
+            "pl": "+250% Mnożnik obrażeń przy trafieniu w głowę<br>+50% Przebicie Pancerza<br>+30% Szansa na porażenie",
+            "en": ""
+          },
+        "description": {
+            "pl": "Niesamowicie precyzyjny karabin snajperski. Bo Kosiarze lubią precyzję.",
+            "en": ""
+          },
+        "iconic_description": {
+            "pl": "Od razu widać, że Kosiarze maczali w tym palce. Pociski wystrzeliwane przez ten karabin uwalniają wyładowania elektryczne z każdym trafieniem w głowę.",
+            "en": ""
+          },
+        "filename": "sparky.webp"
+    },
+    {
+        "id": 7,
+        "name": "DB-4 PALICA",
+        "manufacturer": "rostovic",
+        "technology": "smart",
+        "type": "db_shotgun",
+        "iconic": false,
+        "weight": 9.6,
+        "attack_speed": [0, 0, 5, 0, 0, 0, 0, 0, 5, 0, 0],
+        "damage": [0, 0, 170.98, 0, 0, 0, 0, 0, 447.17, 0, 0],
+        "reload_speed": [0, 0, 0.65, 0, 0, 0, 0, 0, 0.65, 0, 0],
+        "effective_range": [0, 0, 10.50, 0, 0, 0, 0, 0, 12.00, 0, 0],
+        "weapon_handling": [0, 0, 4.24, 0, 0, 0, 0, 0, 4.73, 0, 0],
+        "stats": {
+            "pl": "+35% Mnożnik obrażeń przy trafieniu w głowę<br>1.1sek. Czas namierzania<br>16 Liczba pocisków",
+            "en": ""
+          },
+        "description": {
+            "pl": "`Smart` nie musi znaczyć `drogi`.",
+            "en": ""
+          },
+        "iconic_description": "",
+        "filename": "db4palica.webp"
+    },
+    {
+        "id": 8,
+        "name": "D5 COPPERHEAD",
+        "manufacturer": "nokota",
+        "technology": "power",
+        "type": "assault_rifle",
+        "iconic": false,
+        "weight": 7.2,
+        "attack_speed": [11.11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "damage": [8.83, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "reload_speed": [1.60, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "effective_range": [35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "weapon_handling": [6.59, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "stats": {
+            "pl": "+100% Mnożnik obrażeń przy trafieniu w głowę<br>+25% Przebicie Pancerza",
+            "en": ""
+          },
+        "description": {
+            "pl": "Ulubiona broń partyzantów od Alaski po Zimbabwe.",
+            "en": ""
+          },
+        "iconic_description": "",
+        "filename": "copperhead.webp"
+    },
+    {
+        "id": 9,
+        "name": "MORON LABE",
+        "manufacturer": "militech",
+        "technology": "power",
+        "type": "assault_rifle",
+        "iconic": true,
+        "weight": 7.2,
+        "attack_speed": [0, 0, 0, 0, 0, 0, 0, 0, 7.52, 0, 0],
+        "damage": [0, 0, 0, 0, 0, 0, 0, 0, 40.36, 0, 0],
+        "reload_speed": [0, 0, 0, 0, 0, 0, 0, 0, 1.75, 0, 0],
+        "effective_range": [0, 0, 0, 0, 0, 0, 0, 0, 42, 0, 0],
+        "weapon_handling": [0, 0, 0, 0, 0, 0, 0, 0, 7.25, 0, 0],
+        "stats": {
+            "pl": "+85% Mnożnik obrażeń przy trafieniu w głowę<br>+25% Przebicie Pancerza",
+            "en": ""
+          },
+        "description": {
+            "pl": "Broń dla prawdziwego twardziela, alfy pośród macho.",
+            "en": ""
+          },
+        "iconic_description": {
+            "pl": "Ciebie też irytują te sterczące na boki ręce i nogi twoich wrogów? Oderwanie kończyny przeciwnika zwiększy szansę na zadanie mu obrażeń krytycznych. Zmienne tempo strzałów utrudnia celowanie.",
+            "en": ""
+          },
+        "filename": "moronlabe.webp"
+    },
+    {
+        "id": 10,
+        "name": "BUZZSAW",
+        "manufacturer": "darra",
+        "technology": "power",
+        "type": "smg",
+        "iconic": true,
+        "weight": 5,
+        "attack_speed": [0, 0, 0, 0, 0, 0, 10.42, 0, 0, 0, 10.42],
+        "damage": [0, 0, 0, 0, 0, 0, 24.18, 0, 0, 0, 40.43],
+        "reload_speed": [0, 0, 0, 0, 0, 0, 1.60, 0, 0, 0, 1.60],
+        "effective_range": [0, 0, 0, 0, 0, 0, 20.12, 0, 0, 0, 21],
+        "weapon_handling": [0, 0, 0, 0, 0, 0, 6.92, 0, 0, 0, 7.11],
+        "stats": {
+            "pl": "+100% Mnożnik obrażeń przy trafieniu w głowę<br>+25% Przebicie Pancerza",
+            "en": ""
+          },
+        "description": {
+            "pl": "Istna bestia, która potrafi bardzo mocno kąsać. Na wylot wręcz.",
+            "en": ""
+          },
+        "iconic_description": {
+            "pl": "Wyjątkowa modyfikacja która umożliwia wystrzeliwanie pocisków przebijających. Trafienie wroga w kończyny powoduje dodatkowe obrażenia. Jednym słowem - masakra.",
+            "en": ""
+          },
+        "filename": "buzzsaw.webp"
+    },
+    {
+        "id": 11,
+        "name": "PSALM 11:6",
+        "manufacturer": "nokota",
+        "technology": "power",
+        "type": "assault_rifle",
+        "iconic": true,
+        "weight": 7.2,
+        "attack_speed": [0, 0, 0, 0, 0, 0, 11.11, 0, 0, 0, 0],
+        "damage": [0, 0, 0, 0, 0, 0, 22.70, 0, 0, 0, 0],
+        "reload_speed": [0, 0, 0, 0, 0, 0, 1.60, 0, 0, 0, 0],
+        "effective_range": [0, 0, 0, 0, 0, 0, 28.75, 0, 0, 0, 0],
+        "weapon_handling": [0, 0, 0, 0, 0, 0, 6.52, 0, 0, 0, 0],
+        "stats": {
+            "pl": "+100% Mnożnik obrażeń przy trafieniu w głowę<br>+25% Przebicie Pancerza<br>+27% Szansa na podpalenie",
+            "en": ""
+          },
+        "description": {
+            "pl": "On sprawi, że węgle ogniste i siarka będą padać na grzeszników; wiatr palący będzie udziałem ich kielicha.",
+            "en": ""
+          },
+        "iconic_description": {
+            "pl": "Węgle ogniste, siarka i pociski eksplodujące będą padać na grzeszników. Zamienia twoich wrogów w dymiącą stertę... czegoś.",
+            "en": ""
+          },
+        "filename": "psalm116.webp"
+    },
+    {
+        "id": 12,
+        "name": "RASETSU",
+        "manufacturer": "tsunami",
+        "technology": "tech",
+        "type": "sniper_rifle",
+        "iconic": true,
+        "weight": 11.7,
+        "attack_speed": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.83, 0],
+        "damage": [0, 0, 0, 0, 0, 0, 0, 0, 0, 220.60, 0],
+        "reload_speed": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3.60, 0],
+        "effective_range": [0, 0, 0, 0, 0, 0, 0, 0, 0, 90, 0],
+        "weapon_handling": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4.47, 0],
+        "stats": {
+            "pl": "+300% Mnożnik obrażeń przy trafieniu w głowę<br>+50% Przebicie Pancerza<br>1.5sek. Prędkość ładowania",
+            "en": ""
+          },
+        "description": {
+            "pl": "Spust niemal sam chodzi pod palcem. Tylko daj mu odpowiedni cel.",
+            "en": ""
+          },
+        "iconic_description": {
+            "pl": "Tytuł `lidera innowacji` ponownie trafia do Tsunami. Dlaczego? Otóż naładowane pociski przebijają teraz przeciwników na wylot, a do tego mają zakrzywioną trajektorię, dzięki czemu mogą trafić wiele celów naraz.",
+            "en": ""
+          },
+        "filename": "rasetsu.webp"
+    },
+    {
+        "id": 13,
+        "name": "MALORIAN ARMS 3516",
+        "manufacturer": "malorianarms",
+        "technology": "power",
+        "type": "pistol",
+        "iconic": true,
+        "weight": 4.3,
+        "attack_speed": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3.33, 0],
+        "damage": [0, 0, 0, 0, 0, 0, 0, 0, 0, 100.97, 0],
+        "reload_speed": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1.35, 0],
+        "effective_range": [0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 0],
+        "weapon_handling": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5.36, 0],
+        "stats": {
+            "pl": "+150% Mnożnik obrażeń przy trafieniu w głowę<br>+25% Przebicie Pancerza",
+            "en": ""
+          },
+        "description": {
+            "pl": "Zrobiony na zamówienie dla Johnny'ego Silverhanda. Gość miał gust.",
+            "en": ""
+          },
+        "iconic_description": {
+            "pl": "Ma wredny charakter. Jak jego pierwszy właściciel. Szybki cios podpala przeciwnika i zadaje mu znacznie zwiększone obrażenia. Jednak po każdym szybkim ciosie broń musi zostać przeładowana.",
+            "en": ""
+          },
+        "filename": "marms3516.webp"
+    },
+    {
+        "id": 14,
+        "name": "ARCHANGEL",
+        "manufacturer": "malorianarms",
+        "technology": "power",
+        "type": "revolver",
+        "iconic": true,
+        "weight": 4.6,
+        "attack_speed": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1.87, 0],
+        "damage": [0, 0, 0, 0, 0, 0, 0, 0, 0, 114.98, 0],
+        "reload_speed": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.89, 0],
+        "effective_range": [0, 0, 0, 0, 0, 0, 0, 0, 0, 42, 0],
+        "weapon_handling": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4.48, 0],
+        "stats": {
+            "pl": "+200% Mnożnik obrażeń przy trafieniu w głowę<br>+25% Przebicie Pancerza<br>+20% Szansa na porażenie",
+            "en": ""
+          },
+        "description": {
+            "pl": "Piękny, aż się prosi, żeby go wystawić w gablocie. Ale wtedy by się marnował...",
+            "en": ""
+          },
+        "iconic_description": {
+            "pl": "Anielska broń z piekła rodem. W pełni automatyczny tryb pozwala na strzelanie pociskami w rytm głównego riffu `Archangel` Samuraia. Kolejne trafienia występujące w krótkich odstępach czasu powalają przeciwników na ziemię.",
+            "en": ""
+          },
+        "filename": "archangel.webp"
+    },
+    {
+        "id": 15,
+        "name": "NDI OSPREY",
+        "manufacturer": "nokota",
+        "technology": "power",
+        "type": "sniper_rifle",
+        "iconic": true,
+        "weight": 11.7,
+        "attack_speed": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2.86, 0],
+        "damage": [0, 0, 0, 0, 0, 0, 0, 0, 0, 121.37, 0],
+        "reload_speed": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0],
+        "effective_range": [0, 0, 0, 0, 0, 0, 0, 0, 0, 60.03, 0],
+        "weapon_handling": [0, 0, 0, 0, 0, 0, 0, 0, 0, 7.23, 0],
+        "stats": {
+            "pl": "+200% Mnożnik obrażeń przy trafieniu w głowę<br>+50% Przebicie Pancerza",
+            "en": ""
+          },
+        "description": {
+            "pl": "Spory kaliber, w cholerę prochu. Perełka Nokoty.",
+            "en": ""
+          },
+        "iconic_description": {
+            "pl": "Wystrzeliwuje potężne serie pocisków wybuchowych. Trafienia w głowę zwiększają obrażenia zadawane podczas strzelania z biodra. Zlikwidowanie tą bronią wielu przeciwników zwiększa szybkość przeładowania i szansę na podpalenie celu.",
+            "en": ""
+          },
+        "filename": "ndiosprey.webp"
+    },
+    {
+        "id": 16,
+        "name": "O'FIVE",
+        "manufacturer": "techtronika",
+        "technology": "power",
+        "type": "sniper_rifle",
+        "iconic": true,
+        "weight": 16.6,
+        "attack_speed": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.37, 0],
+        "damage": [0, 0, 0, 0, 0, 0, 0, 0, 0, 692.75, 0],
+        "reload_speed": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0],
+        "effective_range": [0, 0, 0, 0, 0, 0, 0, 0, 0, 40.02, 0],
+        "weapon_handling": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3.38, 0],
+        "stats": {
+            "pl": "+50% Przebicie Pancerza<br>+50% Obrażenia krytyczne<br>+40% Szansa na podpalenie",
+            "en": ""
+          },
+        "description": {
+            "pl": "Zmodyfikowana wersja karabinu `Grad` produkcji Techtroniki. Dość potężna, by zestrzelić z nieba AV-kę.",
+            "en": ""
+          },
+        "iconic_description": {
+            "pl": "Odkryj w sobie piromana. Dołączony do pocisków materiał wybuchowy może podpalać przeciwników. Im więcej z nich płonie, tym bardziej się jarasz. Masz większą szansę na trafienie krytyczne i szybciej przeładowujesz broń.",
+            "en": ""
+          },
+        "filename": "ofive.webp"
+    },
+    {
+        "id": 17,
+        "name": "OVERWATCH",
+        "manufacturer": "techtronika",
+        "technology": "power",
+        "type": "sniper_rifle",
+        "iconic": true,
+        "weight": 11.7,
+        "attack_speed": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.37, 0],
+        "damage": [0, 0, 0, 0, 0, 0, 0, 0, 0, 192.63, 0],
+        "reload_speed": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2.55, 0],
+        "effective_range": [0, 0, 0, 0, 0, 0, 0, 0, 0, 90, 0],
+        "weapon_handling": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4.51, 0],
+        "stats": {
+            "pl": "+300% Mnożnik obrażeń przy trafieniu w głowę<br>+50% Przebicie Pancerza",
+            "en": ""
+          },
+        "description": {
+            "pl": "Karabin snajperski, który należał kiedyś do Panam. Skrócony czas przeładowania i zabójcza precyzja - na tej broni można polegać.",
+            "en": ""
+          },
+        "iconic_description": {
+            "pl": "Modyfikacje pozwalają na szybsze przeładowanie. Wyposażony w doskonały, robiony na zamówienie.",
+            "en": ""
+          },
+        "filename": "overwatch.webp"
+    },
+    {
+        "id": 18,
+        "name": "OSTATNI KRYTYK",
+        "manufacturer": "rostovic",
+        "technology": "power",
+        "type": "precision_rifle",
+        "iconic": true,
+        "weight": 7.8,
+        "attack_speed": [0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0],
+        "damage": [0, 0, 0, 0, 0, 0, 0, 0, 197.48, 0, 0],
+        "reload_speed": [0, 0, 0, 0, 0, 0, 0, 0, 4.10, 0, 0],
+        "effective_range": [0, 0, 0, 0, 0, 0, 0, 0, 60, 0, 0],
+        "weapon_handling": [0, 0, 0, 0, 0, 0, 0, 0, 5.24, 0, 0],
+        "stats": {
+            "pl": "+200% Mnożnik obrażeń przy trafieniu w głowę<br>+50% Przebicie Pancerza<br>+100% Obrażenia krytyczne",
+            "en": ""
+          },
+        "description": {
+            "pl": "Dawniej duma serbskiej zbrojeniówki, ostatnio duma Tiny Mike'a.",
+            "en": ""
+          },
+        "iconic_description": {
+            "pl": "Solidna konstrukcja i modyfikacje Tiny Mike'a stworzyły mieszankę wybuchową. Dosłownie. Eksplodujące pociski powalają przeciwników, a ostatni nabój zawsze zadaje obrażenia krytyczne.",
+            "en": ""
+          },
+        "filename": "hypercritical.webp"
+    },
+    {
+        "id": 19,
+        "name": "WIDOW MAKER",
+        "manufacturer": "militech",
+        "technology": "tech",
+        "type": "precision_rifle",
+        "iconic": true,
+        "weight": 7.8,
+        "attack_speed": [0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0],
+        "damage": [0, 0, 0, 0, 0, 0, 0, 0, 89.20, 0, 0],
+        "reload_speed": [0, 0, 0, 0, 0, 0, 0, 0, 2.25, 0, 0],
+        "effective_range": [0, 0, 0, 0, 0, 0, 0, 0, 50.75, 0, 0],
+        "weapon_handling": [0, 0, 0, 0, 0, 0, 0, 0, 5.41, 0, 0],
+        "stats": {
+            "pl": "+150% Mnożnik obrażeń przy trafieniu w głowę<br>+50% Przebicie Pancerza<br>1.2sek. Prędkość ładowania<br>+20% Szansa na zatrucie",
+            "en": ""
+          },
+        "description": {
+            "pl": "Karabin, który należał do pewnego przebiegłego Raffen Shiva. Nie dość przebiegłego, jak się okazało.",
+            "en": ""
+          },
+        "iconic_description": {
+            "pl": "Karabin Nasha. Już mu się nie przyda. Wystrzeliwuje dodatkowy pocisk przy każdym strzale, zadając chemiczne obrażenia ze zwiększoną szansą na zatrucie. Zwiększone obrażenia przy strzale po naładowaniu.",
+            "en": ""
+          },
+        "filename": "widowmaker.webp"
+    },
+    {
+        "id": 20,
+        "name": "DIVIDED WE STAND",
+        "manufacturer": "nokota",
+        "technology": "smart",
+        "type": "assault_rifle",
+        "iconic": true,
+        "weight": 7.2,
+        "attack_speed": [0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0],
+        "damage": [0, 0, 0, 0, 0, 0, 0, 0, 0, 33.36, 0],
+        "reload_speed": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1.55, 0],
+        "effective_range": [0, 0, 0, 0, 0, 0, 0, 0, 0, 35.99, 0],
+        "weapon_handling": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3.98, 0],
+        "stats": {
+            "pl": "+50% Mnożnik obrażeń przy trafieniu w głowę<br>1.2sek. Czas namierzania<br>+20% Szansa na zatrucie",
+            "en": ""
+          },
+        "description": {
+            "pl": "Wyraź swój patriotyzm - i poparcie dla Drugiej Poprawki.",
+            "en": ""
+          },
+        "iconic_description": {
+            "pl": "Kiedy namierzasz przeciwników poprzez celownik, broń namierza do pięciu celów jednocześnie - niestety kosztem celności. Pociski moga wywoływać chemiczne wybuchy, które powodują ciężkie zatrucie u wrogów w zasięgu.",
+            "en": ""
+          },
+        "filename": "dividedwestand.webp"
+    }
+]
