@@ -210,7 +210,7 @@ fetch('weapons.json')
 
         const statisticsValues = [
             { selector: '.tooltip-attack-speed', data: 'attack_speed', barSelector: '.weapon-tooltip-attack-speed-bar', maxValue: 15 },
-            { selector: '.tooltip-damage', data: 'damage', barSelector: '.weapon-tooltip-damage-bar', maxValue: 300 },
+            { selector: '.tooltip-damage', data: 'damage', barSelector: '.weapon-tooltip-damage-bar', maxValue: 240 },
             { selector: '.tooltip-reload-speed', data: 'reload_speed', barSelector: '.weapon-tooltip-reload-speed-bar', maxValue: 5.2 },
             { selector: '.tooltip-effective-range', data: 'effective_range', barSelector: '.weapon-tooltip-effective-range-bar', maxValue: 60 },
             { selector: '.tooltip-weapon-handling', data: 'weapon_handling', barSelector: '.weapon-tooltip-weapon-handling-bar', maxValue: 8 },
